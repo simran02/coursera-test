@@ -122,6 +122,45 @@ span {
   					Media-Queries 
 --------------------------------------------------
 --------------------------------------------------*/
+@media (min-width: 1200px) {
+#header-nav {
+  height: 70px;
+}
+.navbar-brand {
+    padding-top: 10px;
+    height: 70px;
+    border-bottom: 20px;
+    } 
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+#header-nav {
+    padding-top: 10px;
+    height: 70px; 
+    }  
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #header-nav {
+    padding-top: 10px;
+    height: 70px; 
+    }
+  }
+  }
+/********** Extra small devices only **********/
 
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 70px;
+  }
+
+  .navbar-brand h1 { /* Company's name */
+    padding-top: 10px;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+}
 
 
