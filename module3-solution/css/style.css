@@ -1,0 +1,124 @@
+/*------------------------------------------------
+--------------------------------------------------
+ 				Base Styles 
+--------------------------------------------------
+--------------------------------------------------*/
+
+body{
+	background-color: #99ccff;
+}
+
+/*------------------------------------------------
+--------------------------------------------------
+ 					Header
+--------------------------------------------------
+--------------------------------------------------*/
+#header-nav{
+	background-color: #66b3ff;
+	border: 0;
+	border-radius: 0;
+}
+
+.navbar-brand h1{
+	margin-top: 0px;
+	color: #000;
+	font-size: 2em;
+  	text-shadow: 5px 2px 2px #0080ff;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+/*------------------------------------------------
+--------------------------------------------------
+  					Nav-List 
+--------------------------------------------------
+--------------------------------------------------*/
+#nav-list{
+	margin-top: 10px;
+	background-color: #0080ff;
+}
+
+#nav-list a{
+	color: #ffffff;
+	text-align: center;
+}
+
+#nav-list a:hover{
+	background: #0C46AB;
+}
+
+#nav-list a span{
+	font-size:1em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid #0000ff;
+}
+
+/*------------------------------------------------
+--------------------------------------------------
+  					Main-Content 
+--------------------------------------------------
+--------------------------------------------------*/
+
+.text-center h1{
+	font-size: 1.8em;
+	font-style: bold;
+	color: #000000;
+}
+
+.section { 
+  background-color: #ffffff;
+    border: 2px solid black;
+    margin-top: 20px; 
+    margin-left: 30px;
+    margin-right: 0px; 
+    padding: 3px;
+    text-align: justify;
+    position: relative;
+ }
+
+span {
+  font-size: 20px;
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+}
+
+#nr1  {
+  color: #0080ff;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+#nr2 {
+  color: #0080ff;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+#nr3 {
+  color: #0080ff;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.row {
+  width: 100%;
+}
+
+
+/*------------------------------------------------
+--------------------------------------------------
+  					Media-Queries 
+--------------------------------------------------
+--------------------------------------------------*/
+
+
+
