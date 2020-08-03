@@ -54,12 +54,12 @@ WARNING!!! WARNING!!!
   // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
   // name in the loop.
 
-( function() {        //Step 1
+( function(window) {        //Step 1
     var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
     for (var i in names) { //Step 10
-      var firstLetter = names[i].charAt(0).toLowerCase(); //Step11
+      var firstLetter = (names[i].charAt(0)).toLowerCase(); //Step11
       if (firstLetter === 'j') {              //Step12
-        byeSpeaker.speak(name[i]);
+        byeSpeaker.speak(names[i]);
       } else {
         helloSpeaker.speak(names[i]);
       }
